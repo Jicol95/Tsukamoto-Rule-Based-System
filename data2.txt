@@ -1,0 +1,27 @@
+systemQualityRulebase
+
+Rule 1 If the code is perfect and the document is toSpec then the system will be perfect
+Rule 2 If the code is average or the document is toSpec then the system will be moderate
+Rule 3 If the code is average or the document is standard then the system will be moderate
+Rule 4 If the code is buggy and the document is undtructured then the system will be bad
+
+code
+
+buggy 0 30 0 20
+average 50 50 20 20
+perfect 80 100 20 0
+
+document
+
+unstructured 0 0 0 10
+standard 10 10 5 5
+toSpec 20 20 10 0
+
+system
+
+bad 50 50 50 50
+moderate 100 100 50 50
+perfect 150 150 50 50
+
+code = 5
+document = 9
